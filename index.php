@@ -1,4 +1,13 @@
-<?php
+<html>
+<body>
 
-echo "Hello Lucy Cannon!";
-?> 
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
